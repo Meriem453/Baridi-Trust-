@@ -1,2 +1,2 @@
 // generate local hose url and export it
-export const localHostUrl = "http://localhost:3000/api/v1";
+export const localHostUrl = "https://lucid-optimism-production.up.railway.app/api/v1";
