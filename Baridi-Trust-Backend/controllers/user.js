@@ -13,7 +13,7 @@ const redirect = async(req,res)=>{
         status : 'hold'
     }
     const transaction = await transactionModel.create(newTransaction)
-    const redirectUrl = process.env.REDIRECT_URL + `?CardNum=${req.body.cardNum}&transactionId=${transaction._id}`
+    //const redirectUrl = process.env.REDIRECT_URL + `?CardNum=${req.body.cardNum}&transactionId=${transaction._id}`
     return res.json({transaction:transaction._id})
 }
 const login = async(req,res)=>{
