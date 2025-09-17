@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"; // Import FontAwesome icon
 
 import axios from "axios";
-import { Url } from "../utils";
+import { localHostUrl, Url } from "../utils";
 import { useNavigate } from "react-router-dom";
 
 const RedirectPage = () => {
