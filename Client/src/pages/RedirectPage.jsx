@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"; // Import FontAwesome icon
 
 import axios from "axios";
-import { localHostUrl } from "../utils";
+import { Url } from "../utils";
 import { useNavigate } from "react-router-dom";
 
 const RedirectPage = () => {
@@ -28,7 +28,7 @@ const RedirectPage = () => {
         )
 
         if (transaction.data.transaction) {
-          window.location.href = `${localHostUrl}/auth?transactionId=` + transaction.data.transaction
+          window.location.href = `${Url}/auth?transactionId=` + transaction.data.transaction
         }
 
       } catch (e) { console.log(e) }
