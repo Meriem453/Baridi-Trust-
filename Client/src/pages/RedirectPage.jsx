@@ -28,7 +28,7 @@ const RedirectPage = () => {
         )
 
         if (transaction.data.transaction) {
-          window.location.href = '${localHostUrl}/auth?transactionId=' + transaction.data.transaction
+          window.location.href = `${localHostUrl}/auth?transactionId=` + transaction.data.transaction
         }
 
       } catch (e) { console.log(e) }
