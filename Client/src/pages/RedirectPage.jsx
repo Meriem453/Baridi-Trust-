@@ -28,7 +28,7 @@ const RedirectPage = () => {
         )
 
         if (transaction.data.transaction) {
-          console.log(${Url})
+          console.log(Url)
           window.location.href = `${Url}/auth?transactionId=` + transaction.data.transaction
         }
 
