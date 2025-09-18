@@ -16,18 +16,13 @@ This project provides a secure payment solution for e-commerce websites integrat
 - Backend: Node.js with Express.js</br>
 - Database: MongoDB</br>
 
-<h3>:hammer_and_wrench:Installation</h3>
-Clone the Repository or Download zip
+### 🛠️ Live demo
+- Frontend: https://baridi-trust.up.railway.app
+- Backend API base: https://lucid-optimism-production.up.railway.app/api/v1
 
-<h4>Backend Setup:</h4>
-
-Navigate to the backend folder </br>
-Install dependencies: npm install</br>
-Start the server: npm run dev</br>
-
-<h4>Frontend Setup:</h4>
-
-Navigate to the frontend folder</br>
-Install dependencies: npm install</br>
-Start the development server: npm run dev</br>
+> Use the following test credentials to log in to the demo:
+- **Card number:** `0079999900000002`  
+- **CVV2:** `123`  
+- **Full name:** `John Doe`  
+- **Expiration date:** `01/2025`
 
