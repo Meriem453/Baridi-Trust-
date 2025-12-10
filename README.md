@@ -17,8 +17,7 @@ This project provides a secure payment solution for e-commerce websites integrat
 - Database: MongoDB</br>
 
 ### 🛠️ Live demo
-- Frontend: https://baridi-trust.up.railway.app
-- Backend API base: https://lucid-optimism-production.up.railway.app/api/v1
+[https://baridi-trust.up.railway.app](https://baridi-trust.onrender.com)
 
 > Use the following test credentials to log in to the demo:
 - **Card number:** `0079999900000002`  
