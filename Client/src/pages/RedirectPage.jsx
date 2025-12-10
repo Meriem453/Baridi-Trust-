@@ -29,7 +29,7 @@ const RedirectPage = () => {
 
         if (transaction.data.transaction) {
           //console.log(Url)
-          window.location.href = `https://baridi-trust.up.railway.app/auth?transactionId=` + transaction.data.transaction
+          window.location.href = `${Url}/auth?transactionId=` + transaction.data.transaction
         }
 
       } catch (e) { console.log(e) }
